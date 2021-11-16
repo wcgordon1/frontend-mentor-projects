@@ -24,6 +24,11 @@ body {
     font-family: "Red Hat Display", sans-serif;
     background-color: var(--Pale-blue);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 p {
     font-size: 16px;
@@ -65,6 +70,8 @@ button {
     background-color: var(--Bright-blue);
     color: white;
     padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 9px hsl(224, 23%, 55%)
 }
 
 .btn-primary:hover, .btn-change:hover {
@@ -83,22 +90,63 @@ button {
 .container {
     background-color: white;
     margin: 20px;
-    padding: 30px;
+    padding-bottom: 20px;
     border-radius: 15px;
-    box-shadow: 3px 3px 3px hsl(228, 45%, 44%);
+    box-shadow: 0 0 15px hsl(224, 23%, 55%)
 }
 
-h1 {
-    color: hsl(223, 47%, 23%);
+
+.container img.hero {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
 }
+
+.container .pricing {
+    margin: 25px auto;
+    padding: 10px;
+    background-color: var(--Very-pale-blue);
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container .pricing article {
+    display: flex;
+    align-items: center;
+}
+
+.container .pricing article img {
+    margin-right: 15px;
+}
+.container h1 {
+    color: hsl(223, 47%, 23%);
+    margin: 10px 0;
+}
+
+.container p.desc {
+    padding: 0 30px;
+}
+
  .attribution { font-size: 11px; text-align: center; }
  .attribution a { color: hsl(228, 45%, 44%) 0.15; }
 
+ .container .buttons {
+     display: flex;
+     flex-direction: column;
+     width: 80%;
+     margin: 0 auto 10px;
+ }
 
 @media (min-width: 768px) {
     .bg__image {
         background: url('./images/pattern-background-desktop.svg') no-repeat
         center/cover;
         height: 50vh;
+    }
+    .container {
+        width: 350px;
     }
 }
