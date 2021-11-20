@@ -110,6 +110,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 90px;
     
 }
 
@@ -123,11 +124,14 @@ button {
 }
 .container h1 {
     color: hsl(223, 47%, 23%);
-    margin: 10px 0;
+    margin: 25px 0;
+    font-size: 26px;
+
 }
 
 .container p.desc {
-    padding: 0 30px;
+    margin: 0 auto;
+    width: 300px;
 }
 
  .attribution { font-size: 11px; text-align: center; margin-top: 20px;}
@@ -137,7 +141,7 @@ button {
      display: flex;
      flex-direction: column;
      width: 80%;
-     margin: 0 auto 10px;
+     margin: 35px auto 10px;
  }
 
 @media (min-width: 768px) {
@@ -147,6 +151,6 @@ button {
         height: 50vh;
     }
     .container {
-        width: 350px;
+        width: 400px;
     }
 }
