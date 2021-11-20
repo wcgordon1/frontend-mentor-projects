@@ -130,7 +130,7 @@ button {
     padding: 0 30px;
 }
 
- .attribution { font-size: 11px; text-align: center; }
+ .attribution { font-size: 11px; text-align: center; margin-top: 20px;}
  .attribution a { color: hsl(228, 45%, 44%) 0.15; }
 
  .container .buttons {
