@@ -5,6 +5,12 @@
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
+My Solution: https://wcgordon1.github.io/frontend-mentor-projects/
+- Very Close to original
+- Don't remember this being too difficult
+
+
+
 ## Table of contents
 
 - [Overview](#overview)
